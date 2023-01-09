@@ -1,7 +1,5 @@
 package graphicEditor;
 
-import javax.management.ObjectInstance;
-
 public class Circle extends Shape implements Moveable, Scaleable, Colorable {
     @Override
     public String getShapeName() {
